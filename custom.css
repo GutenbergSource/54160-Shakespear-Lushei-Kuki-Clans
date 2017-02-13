@@ -1,0 +1,44 @@
+
+.smallNote {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: smaller;
+}
+
+.bookDetails {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.sample {
+    font-size: 10pt;
+}
+
+p.sample {
+    text-align: center;
+}
+
+span.intra, span.intra span.top, span.intra span.bottom {
+    /* font-size: inherit; */
+    font-size: 10pt;
+}
+
+span.intra span.bottom {
+    font-style: normal;
+}
+
+.stacked, .stacked .top, .stacked .bottom {
+    padding: 0 1px;
+    line-height: 12pt;
+    vertical-align: middle;
+}
+
+.stacked {
+    display: inline-block;
+    text-align: center;
+}
+
+.stacked .bottom {
+    border-top: 1px solid #000;
+    display: block;
+}
